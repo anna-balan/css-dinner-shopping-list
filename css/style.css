@@ -1,0 +1,101 @@
+*{transition: all .1s ease-in;
+}
+
+html {
+height:100%;
+}
+html, body{
+min-height:100%;
+}
+body {
+background-color:#3B3F45;
+padding:0px;
+font-family:"Tebuchet MC", Tebuchet, Arial, sans-serif;
+border: 20px solid #fff;
+}
+
+.header {
+padding: 20px;
+background-color:#4A4F56;
+text-align:center;
+color:#EC7E7F;
+}
+
+.shopping{
+background: #88839E;
+color: #EDECED;
+font-size:20px;
+
+}
+ul{
+	padding:0;
+	list-style:none;
+}
+li{
+padding:10px;
+vertical-align:middle;
+}
+small:before{
+content:"(";
+}
+small:after{
+content:")";
+}
+small{
+font-size:12px;
+color: #B5C7CA;
+}
+li:nth-child(2n){
+background: #7A7593;
+}
+
+footer{
+padding:5px;
+background-color:#4A4F56;
+text-align:center;
+color:#EC7E7F;
+width:590px;
+margin-left:auto;
+margin-right:auto;
+font-size:20px;
+}
+.container{
+width:600px;
+margin-left:auto;
+margin-right:auto;
+margin-bottom:30px;
+}
+
+.shopping [type="checkbox"] {
+position: relative;
+top: -2px;
+width: 30px;
+height: 30px;
+vertical-align: middle;
+cursor: pointer;
+margin-right: 10px;
+}
+
+.shopping [type="checkbox"]:checked + span {
+text-decoration: line-through;
+color: #a3a0b5;
+}
+/*Зачёркивание текста*/
+
+li:hover{
+	background: #625E77;
+	border-top:3px solid white;
+	border-bottom:3px solid white;
+}
+/*Подсветка при наведении */
+li:active{
+	background: #EE8979;
+}
+/*Подсветка при нажатии*/
+h1{
+	margin-bottom:0;
+	margin-top:0;
+}
+h4 {
+	margin:0;
+}
